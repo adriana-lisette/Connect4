@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="center">
+            <h1 class="title">Connect Four</h1>
+            <div id="top-text" class="top-text">
+                <h2 class= "subtitle">
+                    <span id="current-player">Jugador</span>
+                </h2>
+                <form>
+                    <div>
+                        <label for="move">Columna</label>
+                        <input type="text" id="move" name="move" size="1"><br>
+                        <input type="button" id="enter" value="Colocar">
+                    </div>
+                </form>
+            </div>
+            <table id="board" class="board">
+                <thead>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                </thead>
+                <tbody>  
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="col1" id="space" data-value="empty"></td>
+                        <td class="col2" id="space" data-value="empty"></td>
+                        <td class="col3" id="space" data-value="empty"></td>
+                        <td class="col4" id="space" data-value="empty"></td>
+                        <td class="col5" id="space" data-value="empty"></td>
+                        <td class="col6" id="space" data-value="empty"></td>
+                        <td class="col7" id="space" data-value="empty"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
